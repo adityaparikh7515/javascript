@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID-19 Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🦠 COVID-19 Tracker</h1>
+
+    <div class="search">
+        <input type="text" id="countryInput" placeholder="Enter country name">
+        <button onclick="getCovidData()">Search</button>
+    </div>
+
+    <div class="card">
+        <h2 id="country">World</h2>
+        <p>Total Cases: <span id="cases">-</span></p>
+        <p>Recovered: <span id="recovered">-</span></p>
+        <p>Deaths: <span id="deaths">-</span></p>
+        <p>Active Cases: <span id="active">-</span></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

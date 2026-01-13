@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.search input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.search button {
+    padding: 8px 12px;
+    border: none;
+    background: #667eea;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #5a67d8;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.card span {
+    font-weight: bold;
+}
